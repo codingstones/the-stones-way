@@ -29,6 +29,13 @@
   src: url("../../fonts/cooperhewitt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooperhewitt-medium-webfont.woff2") format("woff2"), url("../../fonts/cooperhewitt-medium-webfont.woff") format("woff"), url("../../fonts/cooperhewitt-medium-webfont.ttf") format("truetype"), url("../../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium") format("svg");
   font-weight: bold;
   font-style: normal; }
+@font-face {
+    font-family: 'Oswald';
+    src: url('../../fonts/oswald700-webfont.woff2') format('woff2'),
+         url('../../fonts/oswald700-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
