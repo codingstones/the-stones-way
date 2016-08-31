@@ -29,37 +29,18 @@
   src: url("../../fonts/cooperhewitt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooperhewitt-medium-webfont.woff2") format("woff2"), url("../../fonts/cooperhewitt-medium-webfont.woff") format("woff"), url("../../fonts/cooperhewitt-medium-webfont.ttf") format("truetype"), url("../../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium") format("svg");
   font-weight: bold;
   font-style: normal; }
-
-
 @font-face {
-    font-family: 'oswaldbold';
-    src: url('../../fonts/oswald-bold-webfont.eot');
-    src: url('../../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/oswald-bold-webfont.woff2') format('woff2'),
-         url('../../fonts/oswald-bold-webfont.woff') format('woff'),
-         url('../../fonts/oswald-bold-webfont.ttf') format('truetype'),
-         url('../../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-
-
-
+  font-family: 'oswaldbold';
+  src: url("../../fonts/oswald-bold-webfont.eot");
+  src: url("../../fonts/oswald-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-bold-webfont.woff2") format("woff2"), url("../../fonts/oswald-bold-webfont.woff") format("woff"), url("../../fonts/oswald-bold-webfont.ttf") format("truetype"), url("../../fonts/oswald-bold-webfont.svg#oswaldbold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 @font-face {
-    font-family: 'oswaldbold';
-    src: url('../../fonts/oswald-bolditalic-webfont.eot');
-    src: url('../../fonts/oswald-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/oswald-bolditalic-webfont.woff2') format('woff2'),
-         url('../../fonts/oswald-bolditalic-webfont.woff') format('woff'),
-         url('../../fonts/oswald-bolditalic-webfont.ttf') format('truetype'),
-         url('../../fonts/oswald-bolditalic-webfont.svg#oswaldbold') format('svg');
-    font-weight: 700;
-    font-style: italic;
-
-}
-
+  font-family: 'oswaldbold';
+  src: url("../../fonts/oswald-bolditalic-webfont.eot");
+  src: url("../../fonts/oswald-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/oswald-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/oswald-bolditalic-webfont.woff") format("woff"), url("../../fonts/oswald-bolditalic-webfont.ttf") format("truetype"), url("../../fonts/oswald-bolditalic-webfont.svg#oswaldbold") format("svg");
+  font-weight: 700;
+  font-style: italic; }
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -348,3 +329,11 @@ body {
     width: 100%;
     height: auto;
     opacity: 0.3; }
+
+.reveal h1 em,
+.reveal h2 em,
+.reveal h3 em,
+.reveal h4 em,
+.reveal h5 em,
+.reveal h6 em {
+  text-decoration: underline; }

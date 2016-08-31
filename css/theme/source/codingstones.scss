@@ -69,6 +69,40 @@
 }
 
 
+
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('../../fonts/oswald-bold-webfont.eot');
+    src: url('../../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/oswald-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/oswald-bold-webfont.woff') format('woff'),
+         url('../../fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('../../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('../../fonts/oswald-bolditalic-webfont.eot');
+    src: url('../../fonts/oswald-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/oswald-bolditalic-webfont.woff2') format('woff2'),
+         url('../../fonts/oswald-bolditalic-webfont.woff') format('woff'),
+         url('../../fonts/oswald-bolditalic-webfont.ttf') format('truetype'),
+         url('../../fonts/oswald-bolditalic-webfont.svg#oswaldbold') format('svg');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+
+
+
 // Colors
 $bg-color:              #FFF;
 $text-color:            #1C1C1C;
@@ -80,7 +114,7 @@ $grey:                  #BBBBBB;
 // Override theme settings (see ../template/settings.scss)
 $mainFont: "Cooper Hewitt Book", "cooper_hewittbook", Helvetica, Arial, sans-serif;
 $mainColor: $text-color;
-$headingFont: "Oswald", Helvetica, Arial, sans-serif;
+$headingFont: "oswaldbold", Helvetica, Arial, sans-serif;
 $headingColor: $accent-color;
 $headingTextShadow: none;
 $headingTextTransform: uppercase;
@@ -137,7 +171,9 @@ $heading4Size: 1.00em;
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-
+    em {
+        text-decoration: underline;
+    }
 }
 
 
