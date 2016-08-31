@@ -13,20 +13,20 @@
    ========================================================================== */
 @font-face {
   font-family: 'cooper_hewittbook';
-  src: url("../fonts/cooperhewitt-book-webfont.eot");
-  src: url("../fonts/cooperhewitt-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cooperhewitt-book-webfont.woff2") format("woff2"), url("../fonts/cooperhewitt-book-webfont.woff") format("woff"), url("../fonts/cooperhewitt-book-webfont.ttf") format("truetype"), url("../fonts/cooperhewitt-book-webfont.svg#cooper_hewittbook") format("svg");
+  src: url("../../fonts/cooperhewitt-book-webfont.eot");
+  src: url("../../fonts/cooperhewitt-book-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooperhewitt-book-webfont.woff2") format("woff2"), url("../../fonts/cooperhewitt-book-webfont.woff") format("woff"), url("../../fonts/cooperhewitt-book-webfont.ttf") format("truetype"), url("../../fonts/cooperhewitt-book-webfont.svg#cooper_hewittbook") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'cooper_hewittbook';
-  src: url("../fonts/cooperhewitt-bookitalic-webfont.eot");
-  src: url("../fonts/cooperhewitt-bookitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cooperhewitt-bookitalic-webfont.woff2") format("woff2"), url("../fonts/cooperhewitt-bookitalic-webfont.woff") format("woff"), url("../fonts/cooperhewitt-bookitalic-webfont.ttf") format("truetype"), url("../fonts/cooperhewitt-bookitalic-webfont.svg#cooper_hewittbook_italic") format("svg");
+  src: url("../../fonts/cooperhewitt-bookitalic-webfont.eot");
+  src: url("../../fonts/cooperhewitt-bookitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooperhewitt-bookitalic-webfont.woff2") format("woff2"), url("../../fonts/cooperhewitt-bookitalic-webfont.woff") format("woff"), url("../../fonts/cooperhewitt-bookitalic-webfont.ttf") format("truetype"), url("../../fonts/cooperhewitt-bookitalic-webfont.svg#cooper_hewittbook_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
 @font-face {
   font-family: 'cooper_hewittbook';
-  src: url("../fonts/cooperhewitt-medium-webfont.eot");
-  src: url("../fonts/cooperhewitt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/cooperhewitt-medium-webfont.woff2") format("woff2"), url("../fonts/cooperhewitt-medium-webfont.woff") format("woff"), url("../fonts/cooperhewitt-medium-webfont.ttf") format("truetype"), url("../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium") format("svg");
+  src: url("../../fonts/cooperhewitt-medium-webfont.eot");
+  src: url("../../fonts/cooperhewitt-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/cooperhewitt-medium-webfont.woff2") format("woff2"), url("../../fonts/cooperhewitt-medium-webfont.woff") format("woff"), url("../../fonts/cooperhewitt-medium-webfont.ttf") format("truetype"), url("../../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium") format("svg");
   font-weight: bold;
   font-style: normal; }
 /*********************************************
@@ -227,20 +227,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #00008B;
+  color: #BD1622;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #0000f1;
+  color: #ea4f5a;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #00003f; }
+  background: #780e16; }
 
 /*********************************************
  * IMAGES
@@ -262,7 +262,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #00008B;
+  border-color: #BD1622;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -270,31 +270,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #00008B; }
+  border-right-color: #BD1622; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #00008B; }
+  border-left-color: #BD1622; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #00008B; }
+  border-bottom-color: #BD1622; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #00008B; }
+  border-top-color: #BD1622; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #0000f1; }
+  border-right-color: #ea4f5a; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #0000f1; }
+  border-left-color: #ea4f5a; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #0000f1; }
+  border-bottom-color: #ea4f5a; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #0000f1; }
+  border-top-color: #ea4f5a; }
 
 /*********************************************
  * PROGRESS BAR
@@ -303,7 +303,17 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #00008B;
+  background: #BD1622;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.logo {
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+  width: 6rem; }
+  .logo img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3; }
