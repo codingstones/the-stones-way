@@ -46,13 +46,7 @@
           <script type="text/template">
             # The Stones Way
 
-            Software Craftmanship Barcelona 2016
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            ![Patrocinadores SCBCN16](images/portada_scbcn16.png)
+            Devscola Valencia 2017
           </script>
         </section>
 
@@ -62,18 +56,17 @@
           </script>
         </section>
 
-        <section data-markdown data-background-image="images/codingstones_animated.gif">
+        <section data-markdown data-background-image="images/coding_stones.jpg">
         </section>
 
         <section data-markdown>
           <script type="text/template">
             ## ¿Qué hacemos?
 
-            * Desarrollo Web
-            * Aplicaciones Móviles
+            * Desarrollo de software
             * UX y diseño
             * Infraestructura y automatización
-            * Mentoring
+            * Mentoring y formación
           </script>
         </section>
 
@@ -82,7 +75,7 @@
             ## ¿Cómo lo hacemos?
 
             * Equipo pequeño y multidisciplinar, a là *XP*
-            * Código sólido como una roca
+            * Código flexible, mantenible y transmitible
             * Una experiencia de usuario fuera de serie
           </script>
         </section>
@@ -133,20 +126,13 @@ $ rails start
 
         <section data-markdown>
           <script type="text/template">
-            ## Una arquitectura *es un altavoz* para la *intención* de la aplicación
+            ## Una arquitectura *es un radiador* para la *intención* de la aplicación
           </script>
         </section>
 
         <section data-markdown>
           <script type="text/template">
             ## El framework que se utiliza es un *puto* detalle
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            ![Ivar Jacobson](images/Ivar_jacobson.jpg)
-            ![OOSE](images/oose.jpg)
           </script>
         </section>
 
@@ -190,6 +176,7 @@ $ rails start
             * DDD
             * Clean Architecture / Hexagonal Architecture
             * Multitenancy
+            * Stateless
             * Sharding
             * Single Page Interface
           </script>
@@ -198,6 +185,26 @@ $ rails start
         <section data-markdown>
           <script type="text/template">
             ![Propuesta](images/propuesta_arquitectura.jpg)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Otro de nuestros proyectos
+
+            * Geocoding (buscar mi destino)
+            * Observar localización (cada n segundos y en segundo plano)
+            * Pintar posición y ruta en mapa
+            * Mandar datos al dispositivo (Conexión BLE)
+          </script>
+        </section>
+
+        <section data-markdown data-background-image="images/jack_sparrow_compass.jpg">
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ![Propuesta](images/haizexagonal.png)
           </script>
         </section>
 
@@ -213,6 +220,12 @@ $ rails start
           </script>
         </section>
 
+        <section data-markdown>
+          <script type="text/template">
+            ## Pero en android es complicado!
+          </script>
+        </section>
+
         <section data-markdown data-background-image="images/grumpy_cat.jpg">
         </section>
 
@@ -222,24 +235,18 @@ $ rails start
           </script>
         </section>
 
-        <section data-markdown>
-          <script type="text/template">
-            ![Propuesta](images/actions.jpg)
-          </script>
+        <section data-markdown data-background-image="images/kata.jpg">
         </section>
 
         <section data-markdown>
           <script type="text/template">
-            ## Conclusiones
+            ## Nuestras conclusiones
 
             * Las actions *no* sustituyen a un servicio de dominio
             * Es un buen punto de entrada para descubrir el API
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            ## Navegación por la estructura del proyecto
+            * Para queries, no es mala opción tirar contra el repositorio directamente
+            * Para comandos, utiliza un servicio de dominio
+            * La factoría también se testea
           </script>
         </section>
 
